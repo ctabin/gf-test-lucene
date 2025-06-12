@@ -43,15 +43,6 @@
       <groupId>com.h2database</groupId>
       <artifactId>h2</artifactId>
     </dependency>
-        
-    <!-- special dependency to force the lookup of classes with the correct JDK
-         and avoiding classloading issues
-         https://github.com/payara/Payara/issues/5500 -->
-    <dependency>
-      <groupId>org.glassfish.pfl</groupId>
-      <artifactId>pfl-basic</artifactId>
-      <scope>runtime</scope>
-    </dependency>
 
     <!-- Must be at the end, especially because the payara-embedded-all also
          includes an old version of H2 which is not compatible with GeoDB and

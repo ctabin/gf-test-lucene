@@ -7,3 +7,4 @@
 /api/target/
 /launcher/target/
 lucene
+.flattened-pom.xml
